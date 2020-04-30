@@ -1,0 +1,14 @@
+.Game {
+    height: 100%;
+    display: flex;
+
+    
+}
+
+.Sidebar {
+    min-width: 200px;
+}
+
+.Gametable {
+    flex: 1;
+}

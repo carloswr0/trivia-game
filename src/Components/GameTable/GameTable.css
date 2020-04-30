@@ -1,0 +1,17 @@
+.GameTable {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.Column {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.Header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

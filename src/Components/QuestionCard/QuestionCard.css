@@ -1,0 +1,15 @@
+.QuestionCard {
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+}
+
+#QuestionText {
+    text-align: center;
+}
+
+#QuestionValue {
+    font-weight: bolder;
+}

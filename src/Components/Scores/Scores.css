@@ -1,0 +1,12 @@
+.Scores {
+    
+}
+
+.Scores li {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#controlpoints {
+    display: flex;
+}
