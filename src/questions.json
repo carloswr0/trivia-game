@@ -1,8 +1,8 @@
 [
-    {"category":"Category", "questions": ["Placeholder 100pts","Placeholder 200pts","Placeholder 300pts","Placeholder 400pts","Placeholder 500pts"]},
-    {"category":"Category", "questions": ["Placeholder 100pts","Placeholder 200pts","Placeholder 300pts","Placeholder 400pts","Placeholder 500pts"]},
-    {"category":"Category", "questions": ["Placeholder 100pts","Placeholder 200pts","Placeholder 300pts","Placeholder 400pts","Placeholder 500pts"]},
-    {"category":"Category", "questions": ["Placeholder 100pts","Placeholder 200pts","Placeholder 300pts","Placeholder 400pts","Placeholder 500pts"]},
-    {"category":"Category", "questions": ["Placeholder 100pts","Placeholder 200pts","Placeholder 300pts","Placeholder 400pts","Placeholder 500pts"]},
-    {"category":"Category", "questions": ["Placeholder 100pts","Placeholder 200pts","Placeholder 300pts","Placeholder 400pts","Placeholder 500pts"]}
+    {"category":"Khaja", "questions": ["Placeholder 100pts","Placeholder 200pts","Placeholder 300pts","Placeholder 400pts","Placeholder 500pts"]},
+    {"category":"TV Shows & Movies", "questions": ["Placeholder 100pts","Placeholder 200pts","Placeholder 300pts","Placeholder 400pts","Placeholder 500pts"]},
+    {"category":"Google", "questions": ["Placeholder 100pts","Placeholder 200pts","Placeholder 300pts","Placeholder 400pts","Placeholder 500pts"]},
+    {"category":"1337", "questions": ["Placeholder 100pts","Placeholder 200pts","Placeholder 300pts","Placeholder 400pts","Placeholder 500pts"]},
+    {"category":"Geography", "questions": ["Placeholder 100pts","Placeholder 200pts","Placeholder 300pts","Placeholder 400pts","Placeholder 500pts"]},
+    {"category":"Potpourri", "questions": ["Placeholder 100pts","Placeholder 200pts","Placeholder 300pts","Placeholder 400pts","Placeholder 500pts"]}
 ]

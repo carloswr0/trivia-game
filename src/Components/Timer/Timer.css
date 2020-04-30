@@ -1,15 +1,12 @@
 .Timer {
     height: 200px;
     display: flex;
-    justify-content: center;
     align-items: center;
+    justify-content: center;
+    font-family: 'Passion One', cursive;
 }
 
 #timeLeft {
     font-size: 7rem;
-    cursor: pointer;
-    width: 100%;
-    height: 100%;
-    text-align: center;
     cursor: pointer;
 }

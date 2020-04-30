@@ -7,16 +7,17 @@ function Scores() {
 
   useEffect(() => {
     setTeams(loadedTeams);
-    console.log("testing re render", teams)
   }, [teams]);
 
-  const adjustPoints = () => {
-
+  const adjustPoints = (index, operation) => {
+    const changesToTeams = [...teams]
+    changesToTeams[index].points = changesToTeams[index].points + operation;
+    setTeams(changesToTeams);
   }
 
   return (
     <div className="Scores">
-      <h1>Teams:</h1>
+      <h1>TEAMS</h1>
         <ul>
           {
             teams.map((team, index) => {
@@ -24,9 +25,9 @@ function Scores() {
                 <li key={index}>
                   <div>{team.name}</div>
                   <div id="controlpoints">
-                    <div onClick={() => adjustPoints(index)}>-</div>
+                    <button id="minus" onClick={() => adjustPoints(index, -100)}>-</button>
                     <p>{team.points}</p>
-                    <div onClick={() => adjustPoints(index)}>+</div>
+                    <button id="add" onClick={() => adjustPoints(index, +100)}>+</button>
                   </div>
                 </li>
               );

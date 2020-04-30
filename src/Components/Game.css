@@ -1,12 +1,14 @@
 .Game {
     height: 100%;
     display: flex;
-
+    margin: 0 2rem;
     
 }
 
 .Sidebar {
     min-width: 200px;
+    display: flex;
+    flex-direction: column;
 }
 
 .Gametable {

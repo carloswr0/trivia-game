@@ -1,12 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Passion+One&display=swap');
 .Scores {
-    
+    flex: 1;
+    font-family: 'Passion One', cursive;
 }
-
+.Scores h1 {
+    font-size: 5rem;
+    text-align: center;
+    margin: 2rem 0;
+}
 .Scores li {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
+    margin: 1rem;
+    font-size: 1.5rem;
 }
-
 #controlpoints {
     display: flex;
 }
+#controlpoints:hover button {
+    display: flex;
+}
+#controlpoints button{
+    display: none;
+    height: 30px;
+}
+#controlpoints button:hover{
+    display: flex;
+}
+
