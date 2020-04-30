@@ -1,6 +1,7 @@
 [
-    {"name":"Team 1", "points": 0},
-    {"name":"Team 2", "points": 0},
-    {"name":"Team 3", "points": 0},
-    {"name":"Team 4", "points": 0}
+    {"name": "Team Conway-1", "points": 0},
+    {"name": "Team Torvalds-2", "points": 0},
+    {"name": "Team Stallman-3", "points": 0},
+    {"name": "Team Hopper-4", "points": 0},
+    {"name": "Team Merkle-5", "points": 0}
 ]

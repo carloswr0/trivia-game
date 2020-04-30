@@ -9,18 +9,24 @@
 
 #QuestionText {
     text-align: center;
-    font-family: 'Josefin Sans', cursive;
+    font-family: 'Passion One', cursive;
+    font-size: 1.3rem;
 }
 
 #QuestionValue {
     font-weight: bolder;
     font-family: 'Passion One', cursive;
+   
     font-weight: 500;
     font-size: 4rem;
     color: #F4B400;
 }
 
+#QuestionValue:hover {
+    transform: scale(1.3) rotate(5deg);
+    transition: 0.1s all ease-out;
+}
+
 .QuestionCard:hover {
-    border: 5px solid #0F9D58;
-    border-radius: 5px;
+  
 }

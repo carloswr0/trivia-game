@@ -12,10 +12,20 @@
     display: flex;
     justify-content: space-between;
     margin: 1rem;
-    font-size: 1.5rem;
+    font-size: 2rem;
+}
+
+.Scores li > *:first-child {
+    
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
 }
 #controlpoints {
     display: flex;
+}
+#controlpoints p{
+    color: #0F9D58;
 }
 #controlpoints:hover button {
     display: flex;

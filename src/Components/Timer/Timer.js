@@ -6,7 +6,6 @@ function Timer() {
   const [intervalId, setIntervalId] = useState();
  
   const startCountdown = () => {
-    console.log(intervalId)
     if(intervalId) {
       clearInterval(intervalId);
       setIntervalId(undefined);
