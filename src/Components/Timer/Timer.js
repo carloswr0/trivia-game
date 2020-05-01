@@ -22,7 +22,8 @@ function Timer() {
 
   return (
     <div className="Timer">
-      <div id="timeLeft" onClick={() => {startCountdown()}}>
+      <h1>TIMER</h1>
+      <div className={`${timeLeft < 10 && timeLeft !== 0 ? "Runningout" : ""}`} id="timeLeft" onClick={() => {startCountdown()}}>
         {timeLeft}s
       </div>
     </div>

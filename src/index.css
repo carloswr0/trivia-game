@@ -58,3 +58,10 @@ html, body, #root, .App {
 	height: 100%;
 	overflow: hidden;
 }
+
+.App {
+	border-top: 6px solid #F4B400;
+    border-right: 6px solid #4285F4;
+    border-bottom: 6px solid #0F9D58;
+    border-left: 6px solid #DB4437;
+}

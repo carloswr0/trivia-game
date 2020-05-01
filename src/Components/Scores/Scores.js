@@ -6,7 +6,16 @@ function Scores() {
   const [teams, setTeams] = useState([]);
 
   useEffect(() => {
-    setTeams(loadedTeams);
+    const savedData = localStorage.getItem('scoreboard');
+    if(!savedData) {
+      setTeams(loadedTeams);
+    } else {
+      setTeams(JSON.parse(savedData));
+    }
+  }, []);
+
+  useEffect(() => {
+    localStorage.setItem('scoreboard', JSON.stringify(teams));
   }, [teams]);
 
   const adjustPoints = (index, operation) => {
@@ -20,7 +29,7 @@ function Scores() {
       <h1>TEAMS</h1>
         <ul>
           {
-            teams.map((team, index) => {
+            teams && teams.map((team, index) => {
               return(
                 <li key={index}>
                   <div>{team.name}</div>
