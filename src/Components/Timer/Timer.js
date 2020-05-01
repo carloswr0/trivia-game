@@ -18,7 +18,7 @@ function Timer() {
 
   useEffect(() => {
     if(timeLeft === 0) { clearInterval(intervalId)}
-  }, [timeLeft]);
+  }, [timeLeft, intervalId]);
 
   return (
     <div className="Timer">

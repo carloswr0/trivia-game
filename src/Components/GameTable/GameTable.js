@@ -16,7 +16,7 @@ function GameTable() {
               {
                 element.questions.map((question, index) => {
                   return(
-                    <QuestionCard key={index} index={index} question={question}/>
+                    <QuestionCard key={index} question={question}/>
                   )
                 })
               }
