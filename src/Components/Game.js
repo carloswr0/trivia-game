@@ -8,8 +8,8 @@ function Game() {
   return (
     <div className="Game">
         <div className="Sidebar">
-            <Scores />
             <Timer />
+            <Scores />
         </div>
         <div className="GameTable">
             <GameTable />

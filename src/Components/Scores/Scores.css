@@ -6,7 +6,7 @@
 .Scores h1 {
     font-size: 5rem;
     text-align: center;
-    margin: 2rem 0;
+    margin-bottom: 2rem;
 }
 .Scores li {
     display: flex;
