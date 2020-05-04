@@ -12,10 +12,10 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 3rem;
+    font-size: 6rem;
     cursor: pointer;
     text-align: center;
-    padding: 0 3rem;
+    padding: 0 4rem;
 }
 
 .Hide {
@@ -43,10 +43,17 @@
     font-size: 2.5rem;
     transform: rotate(-2deg) scale(1);
     color: white;
-
     background-color: #4285F4;
     background-size: 500px;
     padding: 5px;
-
     height: 100px;
+}
+
+#CardSpotlight {
+    display: flex;
+    flex-direction: column;
+}
+
+#CardSpotlight h1 {
+    color: #F4B400;
 }

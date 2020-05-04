@@ -9,7 +9,7 @@ function QuestionCard(props) {
   const revealCards = () => {
     setCardStatus(!cardStatus);
     if(!cardStatus) {
-      props.selectQuestion(props.question.question);
+      props.selectQuestion(props.question);
     }
     saveToMemory();
   }

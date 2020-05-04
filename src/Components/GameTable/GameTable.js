@@ -54,7 +54,13 @@ function GameTable(props) {
       }
       </div>
       <div className={`Spotlight${!spotlight ? " Hide" : ""}`} onClick={() => deselect()}>
-        {spotlightQuestion && spotlightQuestion}
+        { 
+          spotlightQuestion ?
+          <div id="CardSpotlight">
+            <h1>{spotlightQuestion.value}</h1>
+            <p>{spotlightQuestion.question}</p>
+          </div> : null
+        }
       </div>
     </div>
   );
