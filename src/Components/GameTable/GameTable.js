@@ -1,22 +1,50 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import QuestionCard from '../QuestionCard/QuestionCard';
 import loadedQuestions from '../../questions.json';
 import './GameTable.css';
 
-function GameTable() {
+function GameTable(props) {
+  const [spotlight, spotlightStatus] = useState(false);
+  const [spotlightQuestion, setSpotlightQuestion] = useState("");
+
+  useEffect(() => {
+    const savedData = localStorage.getItem('gametable');
+    if(!savedData) {
+      localStorage.setItem('gametable', JSON.stringify([]));
+    }
+  }, []);
+
+  const selectQuestion = (question) => {
+    spotlightStatus(true);
+    setSpotlightQuestion(question);
+    props.startCountdown();
+  }
+
+  const deselect = () => {
+    spotlightStatus(false);
+    setSpotlightQuestion("");
+    props.stopCountdown();
+  }
+
   return (
-    <div className="GameTable">
+    <div className="Container">
+      <div className={`GameTable${spotlight ? " Hide" : ""}`}>
       {
-        loadedQuestions.map((element, index) => {
+        loadedQuestions.map((element, colindex) => {
           return(
-            <div key={index} className="Column">
+            <div key={colindex} className="Column">
               <div className="Header">
                 {element.category.toLocaleUpperCase()}
               </div>
               {
-                element.questions.map((question, index) => {
+                element.questions.map((question, rowindex) => {
                   return(
-                    <QuestionCard key={index} question={question}/>
+                    <QuestionCard 
+                      key={rowindex} 
+                      question={question} 
+                      id={`${colindex}-${rowindex}`}
+                      selectQuestion={selectQuestion}
+                    />
                   )
                 })
               }
@@ -24,6 +52,10 @@ function GameTable() {
           );
         })
       }
+      </div>
+      <div className={`Spotlight${!spotlight ? " Hide" : ""}`} onClick={() => deselect()}>
+        {spotlightQuestion && spotlightQuestion}
+      </div>
     </div>
   );
 }

@@ -1,30 +1,12 @@
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 import './Timer.css';
 
-function Timer() {
-  const [timeLeft, setTimeLeft] = useState(30);
-  const [intervalId, setIntervalId] = useState();
- 
-  const startCountdown = () => {
-    if(intervalId) {
-      clearInterval(intervalId);
-      setIntervalId(undefined);
-      setTimeLeft(30);
-    } else {
-      const interval = setInterval(() => {setTimeLeft(time => time - 1)}, 1000);
-      setIntervalId(interval);
-    }
-  };
-
-  useEffect(() => {
-    if(timeLeft === 0) { clearInterval(intervalId)}
-  }, [timeLeft, intervalId]);
-
+function Timer(props) {
   return (
     <div className="Timer">
       <h1>TIMER</h1>
-      <div className={`${timeLeft < 10 && timeLeft !== 0 ? "Runningout" : ""}`} id="timeLeft" onClick={() => {startCountdown()}}>
-        {timeLeft}s
+      <div className={`${props.timeLeft < 10 && props.timeLeft !== 0 ? "Runningout" : ""}`} id="timeLeft" onClick={() => {props.startCountdown()}}>
+        {props.timeLeft}s
       </div>
     </div>
   );
