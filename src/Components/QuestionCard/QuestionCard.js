@@ -4,10 +4,10 @@ import { useState, useEffect } from 'react';
 
 function QuestionCard(props) {
   const [cardStatus, setCardStatus] = useState(false);
+  const id = props.id;
  
   const revealCards = () => {
     setCardStatus(!cardStatus);
-    //setModalStatus(true);
     if(!cardStatus) {
       props.selectQuestion(props.question.question);
     }
@@ -32,7 +32,6 @@ function QuestionCard(props) {
 
   useEffect(() => {
     const savedData = localStorage.getItem('gametable');
-    const id = props.id;
     if(savedData) {
       const gameTableStateCopy = JSON.parse(savedData);
       const alreadyExists = gameTableStateCopy.find(element => element === id);
@@ -40,7 +39,7 @@ function QuestionCard(props) {
         setCardStatus(true);
       }
     }
-  }, []);
+  }, [id]);
 
   return (
     <div className="QuestionCard" onClick={() => revealCards()}>
