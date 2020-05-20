@@ -1,8 +1,38 @@
 [
-    {"category":"Music", "questions": [{"question":"In What year did the Nirvana frontman Kurt Cobain die? (a bonus point for the month)", "value": "100"},{"question":"One Direction came third in the X Factor in 2010 and went on to become one of the biggest boy bands of all time – name the five original members… (a point for each)","value": "200"},{"question":"The following is a line from which song? “I’m never gonna dance again, Guilty feet have got no rhythm” ", "value": "300"},{"question":"What is the name of The Beatles’ first album?", "value": "400"},{"question":"At which Hertfordshire manor house did Oasis play to 250,000 people across a weekend in 1996?", "value": "500"}]},
-    {"category":"TV Shows & Movies", "questions": [{"question":"Who directed Titanic, Avatar and The Terminator?", "value": "100"},{"question":"What year was the first Toy Story film released in cinemas?", "value": "200"},{"question":"Which three films make up what is known as the Three Flavours Cornetto Trilogy?", "value": "300"},{"question":"Who directed Parasite – the first foreign-language film to win the Academy Award for Best Picture?", "value": "400"},{"question":"Which Oscar-winning actress is the voice of Helen Parr (Elastigirl) in The Incredibles?", "value": "500"}]},
-    {"category":"Google", "questions": [{"question":"Placeholder", "value": "100"},{"question":"Placeholder", "value": "200"},{"question":"Placeholder", "value": "300"},{"question":"Placeholder", "value": "400"},{"question":"Placeholder", "value": "500"}]},
-    {"category":"1337", "questions": [{"question":"Placeholder", "value": "100"},{"question":"Placeholder", "value": "200"},{"question":"Placeholder", "value": "300"},{"question":"Placeholder", "value": "400"},{"question":"Placeholder", "value": "500"}]},
-    {"category":"Geography", "questions": [{"question":"What country has the longest coastline in the world?", "value": "100"},{"question":"What country is Beirut the capital of?", "value": "200"},{"question":"What country is the newest in the world to be recognised by the UN?", "value": "300"},{"question":"In which English county is the town of Stevenage?", "value": "400"},{"question":"What is the oldest recorded town in the UK?", "value": "500"}]},
-    {"category":"Potpourri", "questions": [{"question":"How many letters are in the Greek alphabet?", "value": "100"},{"question":"What is considered the national dance of Spain?", "value": "200"},{"question":"Who hosted the U.S. game show 'Tic Tac Dough' for the first seven seasons?", "value": "300"},{"question":"Should both the President and Vice President die, who would become President of the USA?", "value": "400"},{"question":"What French painter is often called the 'Father of Modern Art'?", "value": "500"}]}
+    {"category":"Music", "questions": [
+        {"question":"In What year did the Nirvana frontman Kurt Cobain die? (a bonus point for the month)", "value": "100"},
+        {"question":"One Direction came third in the X Factor in 2010 and went on to become one of the biggest boy bands of all time – name the five original members… (a point for each)","value": "200"},
+        {"question":"The following is a line from which song? “I’m never gonna dance again, Guilty feet have got no rhythm” ", "value": "300"},
+        {"question":"What is the name of The Beatles’ first album?", "value": "400"},
+        {"question":"At which Hertfordshire manor house did Oasis play to 250,000 people across a weekend in 1996?", "value": "500"}]},
+    {"category":"TV Shows & Movies", "questions": [
+        {"question":"Who directed Titanic, Avatar and The Terminator?", "value": "100"},
+        {"question":"What year was the first Toy Story film released in cinemas?", "value": "200"},
+        {"question":"Which three films make up what is known as the Three Flavours Cornetto Trilogy?", "value": "300"},
+        {"question":"Who directed Parasite – the first foreign-language film to win the Academy Award for Best Picture?", "value": "400"},
+        {"question":"Which Oscar-winning actress is the voice of Helen Parr (Elastigirl) in The Incredibles?", "value": "500"}]},
+    {"category":"Videogames", "questions": [
+        {"question":"Which videogame company originally brought Pac-Man to home consoles?", "value": "100"},
+        {"question":"Superstar rapper/producer Dr. Dre played an arms' dealer in which videogame?", "value": "200"},
+        {"question":"The classic Atari 2600 game controller has how many buttons?", "value": "300"},
+        {"question":"What was the name of the videogame that officially featured Michael Jackson as the hero?", "value": "400"},
+        {"question":"What type of animal is Sonic's companion 'Knuckles'?", "value": "500"}]},
+    {"category":"General Knowledge", "questions": [
+        {"question":"The tallest building in the world is located in which city?", "value": "100"},
+        {"question":"Which year was the original Toy Story film released in the US?", "value": "200"},
+        {"question":"Name the current UK Chancellor of the Exchequer.", "value": "300"},
+        {"question":"Which film was the first to be recognised as part of the Marvel Cinematic Universe?", "value": "400"},
+        {"question":"Name the longest river in the UK.", "value": "500"}]},
+    {"category":"Geography", "questions": [
+        {"question":"What country has the longest coastline in the world?", "value": "100"},
+        {"question":"What country is Beirut the capital of?", "value": "200"},
+        {"question":"What country is the newest in the world to be recognised by the UN?", "value": "300"},
+        {"question":"In which English county is the town of Stevenage?", "value": "400"},
+        {"question":"What is the oldest recorded town in the UK?", "value": "500"}]},
+    {"category":"Potpourri", "questions": [
+        {"question":"How many letters are in the Greek alphabet?", "value": "100"},
+        {"question":"What is considered the national dance of Spain?", "value": "200"},
+        {"question":"Who hosted the U.S. game show 'Tic Tac Dough' for the first seven seasons?", "value": "300"},
+        {"question":"Should both the President and Vice President die, who would become President of the USA?", "value": "400"},
+        {"question":"What French painter is often called the 'Father of Modern Art'?", "value": "500"}]}
 ]

@@ -8,7 +8,7 @@ import './Game.css';
 function Game() {
   const [timeLeft, setTimeLeft] = useState(30);
   const [intervalId, setIntervalId] = useState();
- 
+
   const startCountdown = () => {
     if(intervalId) {
       clearInterval(intervalId);
