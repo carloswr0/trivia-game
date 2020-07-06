@@ -3,6 +3,13 @@
   License: none (public domain)
 */
 
+:root {
+	--main-color: #4285F4;
+	--secundary-color: #0F9D58;
+	--third-color: #05668d;
+	--fourth-color: #00a896;
+}
+
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -60,8 +67,9 @@ html, body, #root, .App {
 }
 
 .App {
-	border-top: 6px solid #F4B400;
-    border-right: 6px solid #4285F4;
-    border-bottom: 6px solid #0F9D58;
-    border-left: 6px solid #DB4437;
+	border-top: 6px solid var(--third-color);
+    border-right: 6px solid var(--fourth-color);
+    border-bottom: 6px solid var(--third-color);
+    border-left: 6px solid var(--fourth-color);
 }
+

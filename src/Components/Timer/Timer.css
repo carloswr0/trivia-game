@@ -15,14 +15,14 @@
 }
 
 #timeLeft {
-    color: #DB4437;
+    color: var(--fourth-color);
     font-size: 7rem;
     cursor: pointer;
     transform: rotate(-2deg) scale(1);
 }
 
 #timeLeft:hover {
-    color: #db4437cf;
+    opacity: 80%;
 }
 
 .Runningout {

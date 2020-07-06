@@ -18,7 +18,7 @@
     font-family: 'Passion One', cursive;
     font-weight: 500;
     font-size: 4rem;
-    color: #F4B400;
+    color: var(--third-color);
 }
 
 #QuestionValue:hover {

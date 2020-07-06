@@ -34,9 +34,9 @@ function Scores() {
                 <li key={index}>
                   <div>{team.name}</div>
                   <div id="controlpoints">
-                    <button id="minus" onClick={() => adjustPoints(index, -100)}>-</button>
+                    <button id="minus" onClick={() => adjustPoints(index, -50)}>-</button>
                     <p>{team.points}</p>
-                    <button id="add" onClick={() => adjustPoints(index, +100)}>+</button>
+                    <button id="add" onClick={() => adjustPoints(index, +50)}>+</button>
                   </div>
                 </li>
               );
